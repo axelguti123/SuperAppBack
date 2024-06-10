@@ -125,9 +125,6 @@ namespace SuperApp.AccesoDatos.DAO
                 cmd.Parameters.AddWithValue("@idEspecialidad", data.IDEspecialidad);
                 cmd.Parameters.AddWithValue("@nombre", data.Nombre);
                 cmd.Parameters.AddWithValue("@apellido", data.Apellido);
-                cmd.Parameters.AddWithValue("@fechaNacimiento", data.FechaNacimiento);
-                cmd.Parameters.AddWithValue("@nombreUsuario", data.Nombre_de_usuario);
-                cmd.Parameters.AddWithValue("@contraseña", data.Contraseña);
                 cmd.Parameters.AddWithValue("@activo", data.IsActivo);
             });
         }

@@ -25,10 +25,11 @@ namespace SuperApp.Services.Utilities
             CreateMap<Usuario, ModificarUsuarioDTO>().ReverseMap();
 
             //Mapeo Partidas
-            CreateMap<Partida,MostrarPartidaDTO>().ForMember(dest => dest.NombreEspecialidad, 
+            /*CreateMap<Partida,MostrarPartidaDTO>().ForMember(dest => dest.NombreEspecialidad, 
                 opt => opt.MapFrom(mapExpression: src => src.Especialidads.NombreEspecialidad))
             .ForMember(dest => dest.childpartida, opt => opt.MapFrom(src => src.ChildPartida))
-            .ReverseMap(); ;
+            .ReverseMap();*/
+            CreateMap<Partida, MostrarPartidaDTO>().ReverseMap();
 
             //Otros Mapeos
             CreateMap<Response, ResponseDTO>().ReverseMap();

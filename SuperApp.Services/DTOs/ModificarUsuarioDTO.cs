@@ -13,8 +13,6 @@ namespace SuperApp.Services.DTOs
         public int IDEspecialidad { get; set; }
         public string? Nombre { get; set; }
         public string? Apellido { get; set; }
-        public string? Nombre_de_usuario { get; set; }
-        public string? Contraseña { get; set; }
         public bool IsActivo { get; set; }
     }
 }
