@@ -9,13 +9,6 @@ namespace SuperApp.AccesoDatos.Utilidades
 {
     internal static class DataBaseHelpers
     {
-        private static readonly Dictionary<int, Func<string, Exception>> _ExceptionMapping = new Dictionary<int, Func<string, Exception>>
-        {
-            {1,(message)=>new UsuarioNoEncontradoException("No se encontro el Usaurio")},
-            {2,(message)=>new EspecialidadNoEncontradaException("No se encontro la especialidad") }
-
-        };
-
         public static async Task<Response> ExecuteNonQueryAsync(string storedProcedure, Action<SqlCommand> action, Func<int, Response> handleReturnValue = null)
         {
             var response = new Response();
@@ -72,17 +65,21 @@ namespace SuperApp.AccesoDatos.Utilidades
                 using var cmd = new SqlCommand(storedProcedure, connection) { CommandType = CommandType.StoredProcedure };
                 action?.Invoke(cmd);
                 using var reader = await cmd.ExecuteReaderAsync().ConfigureAwait(false);
-                response.Data = read(reader);
-                response.Status = "Success";
-                response.Message = "Operacion realizada con exito";
+                if (reader.HasRows)
+                {
+                    response.Data = read(reader);
+                    response.Status = "Success";
+                    response.Message = "Operacion realizada con exito";
+                }
+                else
+                {
+                    response.Status = "Error";
+                    response.Message = "Lista vacia";
+                }
             }
             catch (SqlException ex)
             {
                 response.Status = "Error";
-                response.Message = ex.Message;
-            }catch(SqlNullValueException ex)
-            {
-                response.Status="Error";
                 response.Message = ex.Message;
             }
             finally

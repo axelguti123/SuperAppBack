@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iocmVWUaaub6Z3Xqq9GDxDw+SlUqSeuvtRFAHLdEq783K+1LrJgFCMkC85zHN9udUYlZ0w2G6RWJRzVG/6L35Q==",
+  "dgSpecHash": "G1ypVbomUIFZ8qOOFN1TmTrCQywm9X6jXquxHPXlRJ83To/+U6+DNnk5kYTHR8bb+zUYXI/XH1mB7/sk/hxwlg==",
   "success": true,
-  "projectFilePath": "F:\\Proyecto\\SuperAppBack\\SupperApp.Models\\SupperApp.Models.csproj",
+  "projectFilePath": "D:\\Proyecto\\SuperApp\\SuperAppBack\\SupperApp.Models\\SupperApp.Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

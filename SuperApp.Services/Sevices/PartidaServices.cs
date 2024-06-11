@@ -11,11 +11,10 @@ using System.Threading.Tasks;
 
 namespace SuperApp.Services.Sevices
 {
-    public class PartidaServices(IMapper mapper,UOF uof, ILogger<PartidaServices> logger)
+    public class PartidaServices(IMapper mapper,UOF uof)
     {
         private readonly IMapper _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
         private readonly UOF _uof = uof ?? throw new ArgumentNullException(nameof(uof));
-        private readonly ILogger<PartidaServices> _logger = logger ?? throw new ArgumentNullException(nameof(logger));
         public async Task<ResponseDTO<IEnumerable<MostrarPartidaDTO>>> GetAll()
         {
             var response=new ResponseDTO<IEnumerable<MostrarPartidaDTO>>();
@@ -26,7 +25,6 @@ namespace SuperApp.Services.Sevices
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error obteniendo todos los usuarios");
                 response.Status = "Error";
                 response.Message = ex.Message;
             }
@@ -75,5 +73,21 @@ namespace SuperApp.Services.Sevices
             }
             return raiz;
         }*/
+        public async Task<ResponseDTO> Update(MostrarPartidaDTO partida)
+        {
+            var responseDTO = new ResponseDTO();
+            try
+            {
+                var data = _mapper.Map<Partida>(partida);
+                var response = await _uof.Partida.Update(data);
+                responseDTO = _mapper.Map<ResponseDTO>(response);
+            }
+            catch (Exception ex)
+            {
+                responseDTO.Status = "Error";
+                responseDTO.Message = ex.Message;
+            }
+            return responseDTO;
+        }
     }
 }

@@ -29,6 +29,7 @@ namespace SuperApp.AccesoDatos.DAO
 
         public async Task<Response<IEnumerable<Partida>>> GetAll()
         {
+
             return await DataBaseHelpers.ExecuteReaderAsync("SP_R_PARTIDA", null, reader =>
             {
                 var list = new List<Partida>();
@@ -52,7 +53,7 @@ namespace SuperApp.AccesoDatos.DAO
                 }
                 return list.AsEnumerable();
             });
-           
+
         }
 
         private static List<Partida> ArmarJerarquia(IEnumerable<Partida> list)
@@ -77,9 +78,15 @@ namespace SuperApp.AccesoDatos.DAO
             return raiz;
         }
 
-        public Task<Response> Update(Partida data)
+        public async Task<Response> Update(Partida data)
         {
-            throw new NotImplementedException();
+            return await DataBaseHelpers.ExecuteNonQueryAsync("SP_U_PARTIDA", cmd =>
+            {
+                cmd.Parameters.AddWithValue("@codPartida",data.CodPartida);
+                cmd.Parameters.AddWithValue("@partida", data.partida);
+                cmd.Parameters.AddWithValue("Und", data.Und);
+                cmd.Parameters.AddWithValue("total", data.Total);
+            });
         }
     }
 }

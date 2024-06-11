@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SuperApp.AccesoDatos;
+using SuperApp.AccesoDatos.Interfaz;
 using SuperApp.Services.DTOs;
 using SuperApp.Services.Sevices;
 using SupperApp.Models;
@@ -37,8 +38,14 @@ namespace SuperApp.API.Controllers
 
         // PUT api/<PartidaController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public async Task<IActionResult> Put(string id, [FromBody] MostrarPartidaDTO partida)
         {
+            if (id != partida.CodPartida)
+            {
+                return BadRequest("El id no coincide");
+            }
+            var response = await _partidaServices.Update(partida);
+            return Ok(response);
         }
 
         // DELETE api/<PartidaController>/5
