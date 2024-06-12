@@ -26,11 +26,7 @@ namespace SuperApp.AccesoDatos.Utilidades
                     Direction = ParameterDirection.ReturnValue,
                 };
                 await cmd.ExecuteNonQueryAsync().ConfigureAwait(false);
-                if(handleReturnValue != null)
-                {
-                    int result=(int)returnValue.Value;
-                    return handleReturnValue(result);
-                }
+
                 response.Status = "success";
                 response.Message = "Operacion Realizada con Exito. ";
             }catch(UsuarioNoEncontradoException ex)
