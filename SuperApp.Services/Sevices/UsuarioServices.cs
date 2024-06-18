@@ -6,11 +6,10 @@ using SupperApp.Models;
 
 namespace SuperApp.Services.Sevices
 {
-    public class UsuarioServices(IMapper mapper, UOF uof, ILogger<UsuarioServices> logger)
+    public class UsuarioServices(IMapper mapper, UOF uof)
     {
         private readonly IMapper _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
         private readonly UOF _uof = uof ?? throw new ArgumentNullException(nameof(uof));
-        private readonly ILogger<UsuarioServices> _logger = logger ?? throw new ArgumentNullException(nameof(logger));
 
         public async Task<ResponseDTO> Create(CrearUsuarioDTO userDTO)
         {
@@ -24,7 +23,8 @@ namespace SuperApp.Services.Sevices
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error creando usuario");
+                response.Status = "Error";
+                response.Message = ex.Message;
             }
             return response;
         }
@@ -39,7 +39,6 @@ namespace SuperApp.Services.Sevices
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error obteniendo todos los usuarios");
                 response.Status = "Error";
                 response.Message = ex.Message;
             }
@@ -56,7 +55,8 @@ namespace SuperApp.Services.Sevices
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error eliminando usuario con ID {Id}", id);
+                response.Status = "Error";
+                response.Message = ex.Message;
             }
             return response;
         }
@@ -71,7 +71,6 @@ namespace SuperApp.Services.Sevices
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error encontrando usuario con ID {Id}", id);
                 responseDTO.Status = "Error";
                 responseDTO.Message = ex.Message;
             }
@@ -88,7 +87,6 @@ namespace SuperApp.Services.Sevices
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error Modificando Especailidad");
                 responseDTO.Status="Error";
                 responseDTO.Message= ex.Message;
             }

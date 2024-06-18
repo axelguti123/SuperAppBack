@@ -6,11 +6,10 @@ using SupperApp.Models;
 
 namespace SuperApp.Services.Sevices
 {
-    public class EspecialidadServices(IMapper mapper,UOF uof,  ILogger<EspecialidadServices> logger)
+    public class EspecialidadServices(IMapper mapper,UOF uof)
     {
         private readonly IMapper _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
         private readonly UOF _uof = uof ?? throw new ArgumentNullException(nameof(uof));
-        private readonly ILogger<EspecialidadServices> _logger = logger ?? throw new ArgumentNullException(nameof(logger));
 
         public async Task<ResponseDTO<IEnumerable<MostrarEspecialidadDTO>>> GetAll()
         {
@@ -22,7 +21,8 @@ namespace SuperApp.Services.Sevices
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error obteniendo todas las especialidades");
+                response.Status = "Error";
+                response.Message = ex.Message;
             }
             return response;
         }
@@ -38,7 +38,8 @@ namespace SuperApp.Services.Sevices
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error creando especialidad");
+                responseDTO.Status = "Error";
+                responseDTO.Message = ex.Message;
             }
             return responseDTO;
         }
@@ -53,7 +54,8 @@ namespace SuperApp.Services.Sevices
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error eliminando especialidad con ID {Id}", id);
+                response.Status = "Error";
+                response.Message = ex.Message;
             }
             return response;
         }
@@ -68,7 +70,8 @@ namespace SuperApp.Services.Sevices
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error encontrando especialidad con ID {Id}", id);
+                response.Status = "Error";
+                response.Message = ex.Message;
             }
             return response;
         }
@@ -84,7 +87,8 @@ namespace SuperApp.Services.Sevices
                 responseDTO = _mapper.Map<ResponseDTO>(response);
             }catch(Exception ex)
             {
-                _logger.LogError(ex, "Error Modificando especialidad");
+                responseDTO.Status = "Error";
+                responseDTO.Message = ex.Message;
             }
             return responseDTO;
         }

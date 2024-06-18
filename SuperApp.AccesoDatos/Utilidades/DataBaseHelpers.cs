@@ -9,6 +9,15 @@ namespace SuperApp.AccesoDatos.Utilidades
 {
     internal static class DataBaseHelpers
     {
+        private static readonly Dictionary<Type,string> _excepcion = new()
+        {
+            {typeof(UsuarioNoEncontradoException),"Error. U suario no encontrado" },
+            {typeof(EspecialidadNoEncontradaException),"Error. Especialidad no encontrada" }
+        };
+        private static string GetExcepcionMessage(Exception ex)
+        {
+            return _excepcion.TryGetValue(ex.GetType(), out var message) ? message :"Error desconocido: "+ ex.Message;
+        }
         public static async Task<Response> ExecuteNonQueryAsync(string storedProcedure, Action<SqlCommand> action, Func<int, Response> handleReturnValue = null)
         {
             var response = new Response();
@@ -29,19 +38,11 @@ namespace SuperApp.AccesoDatos.Utilidades
 
                 response.Status = "success";
                 response.Message = "Operacion Realizada con Exito. ";
-            }catch(UsuarioNoEncontradoException ex)
-            {
-                response.Status = "Error";
-                response.Message = ex.Message;
-            }catch(EspecialidadNoEncontradaException ex)
-            {
-                response.Status = "Error";
-                response.Message = ex.Message;
             }
             catch (Exception ex)
             {
                 response.Status = "Error";
-                response.Message = ex.Message;
+                response.Message =GetExcepcionMessage(ex);
             }
             finally
             {
@@ -69,14 +70,14 @@ namespace SuperApp.AccesoDatos.Utilidades
                 }
                 else
                 {
-                    response.Status = "Error";
+                    response.Status = "Information";
                     response.Message = "Lista vacia";
                 }
             }
             catch (SqlException ex)
             {
                 response.Status = "Error";
-                response.Message = ex.Message;
+                response.Message = GetExcepcionMessage(ex);
             }
             finally
             {
