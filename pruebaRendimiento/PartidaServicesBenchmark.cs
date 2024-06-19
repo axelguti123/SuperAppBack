@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using BenchmarkDotNet.Attributes;
+using Microsoft.Diagnostics.Tracing.StackSources;
 using Microsoft.Extensions.DependencyInjection;
 using SuperApp.AccesoDatos;
 using SuperApp.Services.DTOs;
@@ -11,6 +12,8 @@ namespace pruebaRendimiento
     public class PartidaServicesBenchmark
     {
         private PartidaServices _partidaServices;
+        private EspecialidadServices _especialidadServices;
+
         public PartidaServicesBenchmark()
         {
             var services = new ServiceCollection();
@@ -20,9 +23,11 @@ namespace pruebaRendimiento
             services.AddScoped<UsuarioServices>();
             services.AddScoped<PartidaServices>();
             var serviceProvider = services.BuildServiceProvider();
+            
 
             // Resolver el servicio PartidaServices del contenedor
             _partidaServices = serviceProvider.GetRequiredService<PartidaServices>();
+            _especialidadServices = serviceProvider.GetRequiredService<EspecialidadServices> ();
         }
         [Benchmark]
         public async Task<ResponseDTO<IEnumerable<MostrarPartidaDTO>>> GetAllBenchmark()
@@ -30,6 +35,21 @@ namespace pruebaRendimiento
             var result = await _partidaServices.GetAll();
             Console.WriteLine(result);
             return result;
+        }
+        [Benchmark]
+        public async Task<ResponseDTO<IEnumerable<MostrarEspecialidadDTO>>> GetAllEspecialidad()
+        {
+            var response = new ResponseDTO<IEnumerable<MostrarEspecialidadDTO>>();
+            try
+            {
+                var especialidades = await _especialidadServices.GetAll();
+            }
+            catch (Exception ex)
+            {
+                response.Status = "Error";
+                response.Message = ex.Message;
+            }
+            return response;
         }
         [Benchmark]
         public async Task<ResponseDTO> UpdateBenchMark()
@@ -44,5 +64,6 @@ namespace pruebaRendimiento
             var response = await _partidaServices.Update(partida);
             return response;
         }
+
     }
 }

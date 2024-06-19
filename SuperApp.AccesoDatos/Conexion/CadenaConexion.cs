@@ -7,14 +7,25 @@ using System.Threading.Tasks;
 
 namespace SuperApp.AccesoDatos.Conexion
 {
-    internal class CadenaConexion
+    internal sealed class CadenaConexion
     {
-
-        private static readonly string _conexion = "Data Source=MSI\\MSSQLSERVER01;Initial Catalog=dbObra;Integrated Security=true;";
+        private readonly static CadenaConexion _instance = new CadenaConexion();
+        private static readonly string _conexion = "Server=MSI\\MSSQLSERVER01;Database=dbObra;User Id=Axel;Password=1234;Max Pool Size=5;Min Pool Size=2;Pooling=true;";
+        public static CadenaConexion Instance
+        {
+            get
+            {
+                return _instance;
+            }
+        }
 
         public static SqlConnection ObtenerConexion()
         {
             return new SqlConnection(_conexion);
+        }
+        private CadenaConexion()
+        {
+
         }
     }
 }
