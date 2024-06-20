@@ -8,8 +8,8 @@ BenchmarkDotNet v0.13.12, Windows 11 (10.0.22631.3593/23H2/2023Update/SunValley3
 
 
 ```
-| Method             | Mean      | Error    | StdDev    |
-|------------------- |----------:|---------:|----------:|
-| GetAllBenchmark    | 240.38 μs | 4.746 μs | 10.416 μs |
-| GetAllEspecialidad |  65.72 μs | 1.311 μs |  2.365 μs |
-| UpdateBenchMark    | 137.40 μs | 3.145 μs |  9.025 μs |
+| Method             | Mean     | Error    | StdDev   | Median   |
+|------------------- |---------:|---------:|---------:|---------:|
+| GetAllBenchmark    | 591.9 μs | 11.74 μs | 23.99 μs | 588.3 μs |
+| GetAllEspecialidad | 115.8 μs |  4.05 μs | 11.56 μs | 111.8 μs |
+| UpdateBenchMark    | 233.4 μs |  6.98 μs | 20.13 μs | 224.9 μs |

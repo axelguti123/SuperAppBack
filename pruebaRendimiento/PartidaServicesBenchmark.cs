@@ -39,17 +39,11 @@ namespace pruebaRendimiento
         [Benchmark]
         public async Task<ResponseDTO<IEnumerable<MostrarEspecialidadDTO>>> GetAllEspecialidad()
         {
-            var response = new ResponseDTO<IEnumerable<MostrarEspecialidadDTO>>();
-            try
-            {
-                var especialidades = await _especialidadServices.GetAll();
-            }
-            catch (Exception ex)
-            {
-                response.Status = "Error";
-                response.Message = ex.Message;
-            }
-            return response;
+
+            var lst = await _especialidadServices.GetAll();
+
+
+            return lst;
         }
         [Benchmark]
         public async Task<ResponseDTO> UpdateBenchMark()
