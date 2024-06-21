@@ -17,9 +17,12 @@ namespace SuperApp.AccesoDatos.DAO
             throw new NotImplementedException();
         }
 
-        public Task<Response> Delete(int id)
+        public async Task<Response> Delete(int id)
         {
-            throw new NotImplementedException();
+            return await DataBaseHelpers.ExecuteNonQueryAsync("SP_D_PARTIDA", cmd =>
+            {
+                cmd.Parameters.AddWithValue()
+            })
         }
 
         public Task<Response<Partida>> Find(int id)
