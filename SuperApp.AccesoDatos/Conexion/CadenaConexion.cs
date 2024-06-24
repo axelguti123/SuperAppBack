@@ -10,8 +10,8 @@ namespace SuperApp.AccesoDatos.Conexion
     internal sealed class CadenaConexion
     {
         private readonly static CadenaConexion _instance = new CadenaConexion();
-        //private static readonly string _conexion = "Server=MSI\\MSSQLSERVER01;Database=dbObra;User Id=Axel;Password=1234;Max Pool Size=5;Min Pool Size=2;Pooling=true;";
-        private static readonly string _conexion = "Server=localhost;Database=dbObra;User Id=Axel;Password=1234;Max Pool Size=5;Min Pool Size=2;Pooling=true;";
+        private static readonly string _conexion = "Server=MSI\\MSSQLSERVER01;Database=dbObra;User Id=Axel;Password=1234;Max Pool Size=5;Min Pool Size=2;Pooling=true;";
+        //private static readonly string _conexion = "Server=localhost;Database=dbObra;User Id=Axel;Password=1234;Max Pool Size=5;Min Pool Size=2;Pooling=true;";
 
         public static CadenaConexion Instance
         {

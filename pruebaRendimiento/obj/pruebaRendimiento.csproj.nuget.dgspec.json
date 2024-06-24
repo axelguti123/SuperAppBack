@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Proyecto\\SuperAppBack\\pruebaRendimiento\\pruebaRendimiento.csproj": {}
+    "D:\\Proyecto\\SuperApp\\SuperAppBack\\pruebaRendimiento\\pruebaRendimiento.csproj": {}
   },
   "projects": {
-    "F:\\Proyecto\\SuperAppBack\\pruebaRendimiento\\pruebaRendimiento.csproj": {
+    "D:\\Proyecto\\SuperApp\\SuperAppBack\\pruebaRendimiento\\pruebaRendimiento.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Proyecto\\SuperAppBack\\pruebaRendimiento\\pruebaRendimiento.csproj",
+        "projectUniqueName": "D:\\Proyecto\\SuperApp\\SuperAppBack\\pruebaRendimiento\\pruebaRendimiento.csproj",
         "projectName": "pruebaRendimiento",
-        "projectPath": "F:\\Proyecto\\SuperAppBack\\pruebaRendimiento\\pruebaRendimiento.csproj",
-        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "F:\\Proyecto\\SuperAppBack\\pruebaRendimiento\\obj\\",
+        "projectPath": "D:\\Proyecto\\SuperApp\\SuperAppBack\\pruebaRendimiento\\pruebaRendimiento.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "D:\\Proyecto\\SuperApp\\SuperAppBack\\pruebaRendimiento\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,11 +33,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "F:\\Proyecto\\SuperAppBack\\SuperApp.API\\SuperApp.API.csproj": {
-                "projectPath": "F:\\Proyecto\\SuperAppBack\\SuperApp.API\\SuperApp.API.csproj"
+              "D:\\Proyecto\\SuperApp\\SuperAppBack\\SuperApp.API\\SuperApp.API.csproj": {
+                "projectPath": "D:\\Proyecto\\SuperApp\\SuperAppBack\\SuperApp.API\\SuperApp.API.csproj"
               },
-              "F:\\Proyecto\\SuperAppBack\\SuperApp.Services\\SuperApp.Services.csproj": {
-                "projectPath": "F:\\Proyecto\\SuperAppBack\\SuperApp.Services\\SuperApp.Services.csproj"
+              "D:\\Proyecto\\SuperApp\\SuperAppBack\\SuperApp.Services\\SuperApp.Services.csproj": {
+                "projectPath": "D:\\Proyecto\\SuperApp\\SuperAppBack\\SuperApp.Services\\SuperApp.Services.csproj"
               }
             }
           }
@@ -82,20 +82,20 @@
         }
       }
     },
-    "F:\\Proyecto\\SuperAppBack\\SuperApp.AccesoDatos\\SuperApp.AccesoDatos.csproj": {
+    "D:\\Proyecto\\SuperApp\\SuperAppBack\\SuperApp.AccesoDatos\\SuperApp.AccesoDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Proyecto\\SuperAppBack\\SuperApp.AccesoDatos\\SuperApp.AccesoDatos.csproj",
+        "projectUniqueName": "D:\\Proyecto\\SuperApp\\SuperAppBack\\SuperApp.AccesoDatos\\SuperApp.AccesoDatos.csproj",
         "projectName": "SuperApp.AccesoDatos",
-        "projectPath": "F:\\Proyecto\\SuperAppBack\\SuperApp.AccesoDatos\\SuperApp.AccesoDatos.csproj",
-        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "F:\\Proyecto\\SuperAppBack\\SuperApp.AccesoDatos\\obj\\",
+        "projectPath": "D:\\Proyecto\\SuperApp\\SuperAppBack\\SuperApp.AccesoDatos\\SuperApp.AccesoDatos.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "D:\\Proyecto\\SuperApp\\SuperAppBack\\SuperApp.AccesoDatos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -111,8 +111,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "F:\\Proyecto\\SuperAppBack\\SupperApp.Models\\SupperApp.Models.csproj": {
-                "projectPath": "F:\\Proyecto\\SuperAppBack\\SupperApp.Models\\SupperApp.Models.csproj"
+              "D:\\Proyecto\\SuperApp\\SuperAppBack\\SupperApp.Models\\SupperApp.Models.csproj": {
+                "projectPath": "D:\\Proyecto\\SuperApp\\SuperAppBack\\SupperApp.Models\\SupperApp.Models.csproj"
               }
             }
           }
@@ -157,20 +157,20 @@
         }
       }
     },
-    "F:\\Proyecto\\SuperAppBack\\SuperApp.API\\SuperApp.API.csproj": {
+    "D:\\Proyecto\\SuperApp\\SuperAppBack\\SuperApp.API\\SuperApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Proyecto\\SuperAppBack\\SuperApp.API\\SuperApp.API.csproj",
+        "projectUniqueName": "D:\\Proyecto\\SuperApp\\SuperAppBack\\SuperApp.API\\SuperApp.API.csproj",
         "projectName": "SuperApp.API",
-        "projectPath": "F:\\Proyecto\\SuperAppBack\\SuperApp.API\\SuperApp.API.csproj",
-        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "F:\\Proyecto\\SuperAppBack\\SuperApp.API\\obj\\",
+        "projectPath": "D:\\Proyecto\\SuperApp\\SuperAppBack\\SuperApp.API\\SuperApp.API.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "D:\\Proyecto\\SuperApp\\SuperAppBack\\SuperApp.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -186,11 +186,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "F:\\Proyecto\\SuperAppBack\\SuperApp.AccesoDatos\\SuperApp.AccesoDatos.csproj": {
-                "projectPath": "F:\\Proyecto\\SuperAppBack\\SuperApp.AccesoDatos\\SuperApp.AccesoDatos.csproj"
+              "D:\\Proyecto\\SuperApp\\SuperAppBack\\SuperApp.AccesoDatos\\SuperApp.AccesoDatos.csproj": {
+                "projectPath": "D:\\Proyecto\\SuperApp\\SuperAppBack\\SuperApp.AccesoDatos\\SuperApp.AccesoDatos.csproj"
               },
-              "F:\\Proyecto\\SuperAppBack\\SuperApp.Services\\SuperApp.Services.csproj": {
-                "projectPath": "F:\\Proyecto\\SuperAppBack\\SuperApp.Services\\SuperApp.Services.csproj"
+              "D:\\Proyecto\\SuperApp\\SuperAppBack\\SuperApp.Services\\SuperApp.Services.csproj": {
+                "projectPath": "D:\\Proyecto\\SuperApp\\SuperAppBack\\SuperApp.Services\\SuperApp.Services.csproj"
               }
             }
           }
@@ -238,20 +238,20 @@
         }
       }
     },
-    "F:\\Proyecto\\SuperAppBack\\SuperApp.Services\\SuperApp.Services.csproj": {
+    "D:\\Proyecto\\SuperApp\\SuperAppBack\\SuperApp.Services\\SuperApp.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Proyecto\\SuperAppBack\\SuperApp.Services\\SuperApp.Services.csproj",
+        "projectUniqueName": "D:\\Proyecto\\SuperApp\\SuperAppBack\\SuperApp.Services\\SuperApp.Services.csproj",
         "projectName": "SuperApp.Services",
-        "projectPath": "F:\\Proyecto\\SuperAppBack\\SuperApp.Services\\SuperApp.Services.csproj",
-        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "F:\\Proyecto\\SuperAppBack\\SuperApp.Services\\obj\\",
+        "projectPath": "D:\\Proyecto\\SuperApp\\SuperAppBack\\SuperApp.Services\\SuperApp.Services.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "D:\\Proyecto\\SuperApp\\SuperAppBack\\SuperApp.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -267,11 +267,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "F:\\Proyecto\\SuperAppBack\\SuperApp.AccesoDatos\\SuperApp.AccesoDatos.csproj": {
-                "projectPath": "F:\\Proyecto\\SuperAppBack\\SuperApp.AccesoDatos\\SuperApp.AccesoDatos.csproj"
+              "D:\\Proyecto\\SuperApp\\SuperAppBack\\SuperApp.AccesoDatos\\SuperApp.AccesoDatos.csproj": {
+                "projectPath": "D:\\Proyecto\\SuperApp\\SuperAppBack\\SuperApp.AccesoDatos\\SuperApp.AccesoDatos.csproj"
               },
-              "F:\\Proyecto\\SuperAppBack\\SupperApp.Models\\SupperApp.Models.csproj": {
-                "projectPath": "F:\\Proyecto\\SuperAppBack\\SupperApp.Models\\SupperApp.Models.csproj"
+              "D:\\Proyecto\\SuperApp\\SuperAppBack\\SupperApp.Models\\SupperApp.Models.csproj": {
+                "projectPath": "D:\\Proyecto\\SuperApp\\SuperAppBack\\SupperApp.Models\\SupperApp.Models.csproj"
               }
             }
           }
@@ -324,20 +324,20 @@
         }
       }
     },
-    "F:\\Proyecto\\SuperAppBack\\SupperApp.Models\\SupperApp.Models.csproj": {
+    "D:\\Proyecto\\SuperApp\\SuperAppBack\\SupperApp.Models\\SupperApp.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Proyecto\\SuperAppBack\\SupperApp.Models\\SupperApp.Models.csproj",
+        "projectUniqueName": "D:\\Proyecto\\SuperApp\\SuperAppBack\\SupperApp.Models\\SupperApp.Models.csproj",
         "projectName": "SupperApp.Models",
-        "projectPath": "F:\\Proyecto\\SuperAppBack\\SupperApp.Models\\SupperApp.Models.csproj",
-        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "F:\\Proyecto\\SuperAppBack\\SupperApp.Models\\obj\\",
+        "projectPath": "D:\\Proyecto\\SuperApp\\SuperAppBack\\SupperApp.Models\\SupperApp.Models.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "D:\\Proyecto\\SuperApp\\SuperAppBack\\SupperApp.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

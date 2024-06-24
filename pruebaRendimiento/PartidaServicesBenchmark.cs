@@ -58,6 +58,12 @@ namespace pruebaRendimiento
             var response = await _partidaServices.Update(partida);
             return response;
         }
+        [Benchmark]
+        public async Task DeletePartidaBenchMark()
+        {
+            await _partidaServices.Delete(146);
 
+
+        }
     }
 }
