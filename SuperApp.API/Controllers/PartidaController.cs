@@ -50,8 +50,10 @@ namespace SuperApp.API.Controllers
 
         // DELETE api/<PartidaController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
+            var response= await _partidaServices.Delete(id);
+            return Ok(response);
         }
     }
 }

@@ -89,5 +89,20 @@ namespace SuperApp.Services.Sevices
             }
             return responseDTO;
         }
+        public async Task<ResponseDTO> Delete(int id)
+        {
+            var responseDTO=new ResponseDTO();
+            try
+            {
+                var response=await _uof.Partida.Delete(id);
+                responseDTO= _mapper.Map<ResponseDTO>(response);
+            }
+            catch (Exception ex)
+            {
+                responseDTO.Status="Error";
+                responseDTO.Message = ex.Message;
+            }
+            return responseDTO;
+        }
     }
 }

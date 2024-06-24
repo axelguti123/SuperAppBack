@@ -21,8 +21,8 @@ namespace SuperApp.AccesoDatos.DAO
         {
             return await DataBaseHelpers.ExecuteNonQueryAsync("SP_D_PARTIDA", cmd =>
             {
-                cmd.Parameters.AddWithValue()
-            })
+                cmd.Parameters.AddWithValue("@idPartida", id);
+            });
         }
 
         public Task<Response<Partida>> Find(int id)
@@ -40,6 +40,7 @@ namespace SuperApp.AccesoDatos.DAO
                 {
                     list.Add(new Partida()
                     {
+                        IDPartida= reader.IsDBNull(reader.GetOrdinal("codPartida"))? 0:reader.GetInt32(reader.GetOrdinal("idPartida")),
                         CodPartida = reader.IsDBNull(reader.GetOrdinal("codPartida")) ? "" : reader.GetString(reader.GetOrdinal("codPartida")),
                         partida = reader.IsDBNull(reader.GetOrdinal("partida")) ? "" : reader.GetString(reader.GetOrdinal("partida")),
                         IDEspecialidad = reader.IsDBNull(reader.GetOrdinal("idEspecialidad")) ? 0 : reader.GetInt32(reader.GetOrdinal("idEspecialidad")),

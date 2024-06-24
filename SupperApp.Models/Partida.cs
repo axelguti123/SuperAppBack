@@ -9,6 +9,7 @@ namespace SupperApp.Models
 {
     public class Partida
     {
+        public int IDPartida { get; set; }
         public string CodPartida {  get; set; }
         public string partida {  get; set; }
         public int IDEspecialidad {  get; set; }

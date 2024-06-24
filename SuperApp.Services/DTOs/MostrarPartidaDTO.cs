@@ -8,6 +8,7 @@ namespace SuperApp.Services.DTOs
 {
     public class MostrarPartidaDTO
     {
+        public int IDPartida { get; set; }
         public string CodPartida { get; set; }
         public string partida { get; set; }
        // public int IDEspecialidad { get; set; }

@@ -28,16 +28,14 @@ namespace SuperApp.AccesoDatos.Utilidades
                 await connection.OpenAsync().ConfigureAwait(false);
                 using var cmd = new SqlCommand(storedProcedure, connection) { CommandType = CommandType.StoredProcedure };
                 action?.Invoke(cmd);
-                var returnValue = new SqlParameter
-                {
-                    ParameterName = "@returnValue",
-                    SqlDbType = SqlDbType.Int,
-                    Direction = ParameterDirection.ReturnValue,
-                };
                 await cmd.ExecuteNonQueryAsync().ConfigureAwait(false);
 
                 response.Status = "success";
                 response.Message = "Operacion Realizada con Exito. ";
+            }catch(SqlException ex)
+            {
+                response.Status = "Error";
+                response.Message = GetExcepcionMessage(ex);
             }
             catch (Exception ex)
             {
