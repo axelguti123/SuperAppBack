@@ -1,5 +1,6 @@
 using SuperApp.AccesoDatos;
 using SuperApp.AccesoDatos.Interfaz;
+using SuperApp.Services.DTOs;
 using SuperApp.Services.Sevices;
 using SuperApp.Services.Utilities;
 
@@ -19,11 +20,12 @@ builder.Services.AddTransient((uof) =>
 builder.Services.AddScoped<EspecialidadServices>();
 builder.Services.AddScoped<UsuarioServices>();
 builder.Services.AddScoped<PartidaServices>();
+builder.Services.AddScoped<PaginacionDTO>();
 builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(builder =>
     {
-        builder.WithOrigins("http://localhost:4200").AllowAnyMethod().AllowAnyHeader();
+        builder.WithOrigins("http://localhost:4200").AllowAnyMethod().AllowAnyHeader().WithExposedHeaders(["CantidadTotalRegistro"]);
     });
 });
 

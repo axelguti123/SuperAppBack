@@ -1,7 +1,9 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using SuperApp.AccesoDatos;
 using SuperApp.Services.DTOs;
+using SuperApp.Services.Utilities;
 using SupperApp.Models;
 using System;
 using System.Collections.Generic;
@@ -11,10 +13,12 @@ using System.Threading.Tasks;
 
 namespace SuperApp.Services.Sevices
 {
-    public class PartidaServices(IMapper mapper,UOF uof)
+    public class PartidaServices(IMapper mapper,UOF uof,PaginacionDTO paginacion)
     {
         private readonly IMapper _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
         private readonly UOF _uof = uof ?? throw new ArgumentNullException(nameof(uof));
+        private readonly PaginacionDTO _paginacion = paginacion ?? throw new ArgumentNullException(nameof(paginacion));
+
         public async Task<ResponseDTO<IEnumerable<MostrarPartidaDTO>>> GetAll()
         {
             var response=new ResponseDTO<IEnumerable<MostrarPartidaDTO>>();
