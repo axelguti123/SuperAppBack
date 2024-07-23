@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Enums;
 using Microsoft.Extensions.Logging;
 using SuperApp.AccesoDatos;
 using SuperApp.Services.DTOs;
@@ -21,7 +22,7 @@ namespace SuperApp.Services.Sevices
             }
             catch (Exception ex)
             {
-                response.Status = "Error";
+                response.Status = Status.Error.ToString();
                 response.Message = ex.Message;
             }
             return response;
@@ -38,7 +39,7 @@ namespace SuperApp.Services.Sevices
             }
             catch (Exception ex)
             {
-                responseDTO.Status = "Error";
+                responseDTO.Status = Status.Error.ToString();
                 responseDTO.Message = ex.Message;
             }
             return responseDTO;
@@ -54,7 +55,7 @@ namespace SuperApp.Services.Sevices
             }
             catch (Exception ex)
             {
-                response.Status = "Error";
+                response.Status = Status.Error.ToString();
                 response.Message = ex.Message;
             }
             return response;

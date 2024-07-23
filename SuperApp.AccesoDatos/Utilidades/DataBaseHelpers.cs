@@ -4,6 +4,7 @@ using SupperApp.Models;
 using System.Data.SqlClient;
 using System.Data;
 using System.Data.SqlTypes;
+using Enums;
 
 namespace SuperApp.AccesoDatos.Utilidades
 {
@@ -30,16 +31,16 @@ namespace SuperApp.AccesoDatos.Utilidades
                 action?.Invoke(cmd);
                 await cmd.ExecuteNonQueryAsync().ConfigureAwait(false);
 
-                response.Status = "success";
+                response.Status = Status.Success.ToString();
                 response.Message = "Operacion Realizada con Exito. ";
             }catch(SqlException ex)
             {
-                response.Status = "Error";
+                response.Status = Status.Error.ToString();
                 response.Message = GetExcepcionMessage(ex);
             }
             catch (Exception ex)
             {
-                response.Status = "Error";
+                response.Status = Status.Error.ToString();
                 response.Message =GetExcepcionMessage(ex);
             }
             finally
@@ -63,18 +64,18 @@ namespace SuperApp.AccesoDatos.Utilidades
                 if (reader.HasRows)
                 {
                     response.Data = read(reader);
-                    response.Status = "Success";
+                    response.Status = Status.Success.ToString();
                     response.Message = "Operacion realizada con exito";
                 }
                 else
                 {
-                    response.Status = "Information";
+                    response.Status = Status.Information.ToString();
                     response.Message = "Lista vacia";
                 }
             }
             catch (SqlException ex)
             {
-                response.Status = "Error";
+                response.Status = Status.Error.ToString();
                 response.Message = GetExcepcionMessage(ex);
             }
             finally

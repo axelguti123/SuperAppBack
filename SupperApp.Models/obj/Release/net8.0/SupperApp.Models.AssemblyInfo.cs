@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SupperApp.Models")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f564995947080589f4a5b6306419f4152c710dd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a830839b8b2cb3eb0f66b363dc0826b05f094c8")]
 [assembly: System.Reflection.AssemblyProductAttribute("SupperApp.Models")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SupperApp.Models")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

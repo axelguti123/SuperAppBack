@@ -147,6 +147,16 @@
           }
         }
       },
+      "Enums/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Enums.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Enums.dll": {}
+        }
+      },
       "SupperApp.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -473,6 +483,11 @@
         "version.txt"
       ]
     },
+    "Enums/1.0.0": {
+      "type": "project",
+      "path": "../Enums/Enums.csproj",
+      "msbuildProject": "../Enums/Enums.csproj"
+    },
     "SupperApp.Models/1.0.0": {
       "type": "project",
       "path": "../SupperApp.Models/SupperApp.Models.csproj",
@@ -481,24 +496,30 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Enums >= 1.0.0",
       "SupperApp.Models >= 1.0.0",
       "System.Data.SqlClient >= 4.8.6"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Axel\\.nuget\\packages\\": {}
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SupperApp\\SupperAppBack\\SuperApp.AccesoDatos\\SuperApp.AccesoDatos.csproj",
+      "projectUniqueName": "D:\\Proyecto\\SuperApp\\SuperAppBack\\SuperApp.AccesoDatos\\SuperApp.AccesoDatos.csproj",
       "projectName": "SuperApp.AccesoDatos",
-      "projectPath": "D:\\SupperApp\\SupperAppBack\\SuperApp.AccesoDatos\\SuperApp.AccesoDatos.csproj",
-      "packagesPath": "C:\\Users\\Axel\\.nuget\\packages\\",
-      "outputPath": "D:\\SupperApp\\SupperAppBack\\SuperApp.AccesoDatos\\obj\\",
+      "projectPath": "D:\\Proyecto\\SuperApp\\SuperAppBack\\SuperApp.AccesoDatos\\SuperApp.AccesoDatos.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "D:\\Proyecto\\SuperApp\\SuperAppBack\\SuperApp.AccesoDatos\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Axel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -513,8 +534,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\SupperApp\\SupperAppBack\\SupperApp.Models\\SupperApp.Models.csproj": {
-              "projectPath": "D:\\SupperApp\\SupperAppBack\\SupperApp.Models\\SupperApp.Models.csproj"
+            "D:\\Proyecto\\SuperApp\\SuperAppBack\\Enums\\Enums.csproj": {
+              "projectPath": "D:\\Proyecto\\SuperApp\\SuperAppBack\\Enums\\Enums.csproj"
+            },
+            "D:\\Proyecto\\SuperApp\\SuperAppBack\\SupperApp.Models\\SupperApp.Models.csproj": {
+              "projectPath": "D:\\Proyecto\\SuperApp\\SuperAppBack\\SupperApp.Models\\SupperApp.Models.csproj"
             }
           }
         }
@@ -555,7 +579,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

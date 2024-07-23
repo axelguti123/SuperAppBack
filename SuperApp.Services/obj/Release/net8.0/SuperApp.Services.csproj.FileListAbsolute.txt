@@ -16,3 +16,5 @@ D:\Proyecto\SuperApp\SuperAppBack\SuperApp.Services\obj\Release\net8.0\SuperApp.
 D:\Proyecto\SuperApp\SuperAppBack\SuperApp.Services\obj\Release\net8.0\refint\SuperApp.Services.dll
 D:\Proyecto\SuperApp\SuperAppBack\SuperApp.Services\obj\Release\net8.0\SuperApp.Services.pdb
 D:\Proyecto\SuperApp\SuperAppBack\SuperApp.Services\obj\Release\net8.0\ref\SuperApp.Services.dll
+D:\Proyecto\SuperApp\SuperAppBack\SuperApp.Services\bin\Release\net8.0\Enums.dll
+D:\Proyecto\SuperApp\SuperAppBack\SuperApp.Services\bin\Release\net8.0\Enums.pdb

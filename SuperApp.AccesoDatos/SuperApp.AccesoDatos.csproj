@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Enums\Enums.csproj" />
     <ProjectReference Include="..\SupperApp.Models\SupperApp.Models.csproj" />
   </ItemGroup>
 

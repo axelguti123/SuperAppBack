@@ -48,3 +48,5 @@ D:\Proyecto\SuperApp\SuperAppBack\SuperApp.API\obj\Release\net8.0\refint\SuperAp
 D:\Proyecto\SuperApp\SuperAppBack\SuperApp.API\obj\Release\net8.0\SuperApp.API.pdb
 D:\Proyecto\SuperApp\SuperAppBack\SuperApp.API\obj\Release\net8.0\SuperApp.API.genruntimeconfig.cache
 D:\Proyecto\SuperApp\SuperAppBack\SuperApp.API\obj\Release\net8.0\ref\SuperApp.API.dll
+D:\Proyecto\SuperApp\SuperAppBack\SuperApp.API\bin\Release\net8.0\Enums.dll
+D:\Proyecto\SuperApp\SuperAppBack\SuperApp.API\bin\Release\net8.0\Enums.pdb

@@ -23,16 +23,6 @@ namespace SuperApp.AccesoDatos.DAO
                 cmd.Parameters.AddWithValue("@nombreUsuario", data.Nombre_de_usuario);
                 cmd.Parameters.AddWithValue("@contraseña", data.Contraseña);
                 cmd.Parameters.AddWithValue("@activo", data.IsActivo);
-            },
-            result =>
-            {
-                return result switch
-                {
-                    1 => new Response { Status = "Success", Message = "Registro Eliminado" },
-                    -1 => new Response { Status = "Error", Message = "Error. No se encontro una especialidad con el ID proporcionado." },
-                    -2 => new Response { Status = "Error", Message = "Error al eliminar especialidad" },
-                    _ => new Response { Status = "Error", Message = "Código de retorno no reconocido." }
-                };
             });
         }
 
@@ -41,23 +31,6 @@ namespace SuperApp.AccesoDatos.DAO
             return await DataBaseHelpers.ExecuteNonQueryAsync("SP_D_USUARIO", cmd =>
             {
                 cmd.Parameters.AddWithValue("@idUsuario", id);
-                var returnVlue = new SqlParameter
-                {
-                    ParameterName = "@returnValue",
-                    SqlDbType = SqlDbType.Int,
-                    Direction = ParameterDirection.ReturnValue,
-                };
-                cmd.Parameters.Add(returnVlue);
-            },
-            result =>
-            {
-                return result switch
-                {
-                    1 => new Response { Status = "Success", Message = "Registro Eliminado" },
-                    -1 => new Response { Status = "Error", Message = "Error. No se encontro una especialidad con el ID proporcionado." },
-                    -2 => new Response { Status = "Error", Message = "Error al eliminar especialidad" },
-                    _ => new Response { Status = "Error", Message = "Código de retorno no reconocido." }
-                };
             });
             
         }

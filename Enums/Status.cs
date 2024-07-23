@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SuperApp.Services.Sevices
+namespace Enums
 {
-    internal class PaginacionServices
+    public enum Status
     {
+        Success,
+        Error,
+        Information
     }
 }

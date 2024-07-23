@@ -13,7 +13,7 @@ namespace SuperApp.Services.DTOs
         public string partida { get; set; }
        // public int IDEspecialidad { get; set; }
        // public string NombreEspecialidad { get; set; }
-       // public string IDPadre { get; set; }
+       //public string IDPadre { get; set; }
         public string Und { get; set; }
         public decimal Total { get; set; }
         //public int Nivel { get; set; }
