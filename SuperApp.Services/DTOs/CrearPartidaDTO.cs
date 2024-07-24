@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace SuperApp.Services.DTOs
 {
-    internal class CrearPartidaDTO:MostrarPartidaDTO
+    public class CrearPartidaDTO
     {
+        public string IDPadre { get; set; }
+        public int IDEspecialidad {  get; set; }
+        public string CodPartida { get; set; }
+        public string partida { get; set; }
+        public string Und { get; set; }
+        public decimal Total { get; set; }
 
     }
 }

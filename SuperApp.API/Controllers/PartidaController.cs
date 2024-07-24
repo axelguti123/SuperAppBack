@@ -35,10 +35,19 @@ namespace SuperApp.API.Controllers
 
         // POST api/<PartidaController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public IActionResult Post([FromBody] IEnumerable<CrearPartidaDTO> data)
         {
+            if (data != null)
+            {
+                Console.WriteLine(data);
+            }
+            else
+            {
+                Console.WriteLine("Sin data");
+            }
+            return Ok("hola");
         }
-
+       
         // PUT api/<PartidaController>/5
         [HttpPut("{id}")]
         public async Task<IActionResult> Put(string id, [FromBody] MostrarPartidaDTO partida)
