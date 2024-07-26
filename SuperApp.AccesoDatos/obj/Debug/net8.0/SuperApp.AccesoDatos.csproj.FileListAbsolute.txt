@@ -94,3 +94,5 @@ D:\SupperApp\SupperAppBack\SuperApp.AccesoDatos\obj\Debug\net8.0\SuperApp.Acceso
 D:\SupperApp\SupperAppBack\SuperApp.AccesoDatos\obj\Debug\net8.0\refint\SuperApp.AccesoDatos.dll
 D:\SupperApp\SupperAppBack\SuperApp.AccesoDatos\obj\Debug\net8.0\SuperApp.AccesoDatos.pdb
 D:\SupperApp\SupperAppBack\SuperApp.AccesoDatos\obj\Debug\net8.0\ref\SuperApp.AccesoDatos.dll
+D:\SupperApp\SupperAppBack\SuperApp.AccesoDatos\bin\Debug\net8.0\Enums.dll
+D:\SupperApp\SupperAppBack\SuperApp.AccesoDatos\bin\Debug\net8.0\Enums.pdb

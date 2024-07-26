@@ -1,0 +1,12 @@
+D:\SupperApp\SupperAppBack\Enums\bin\Debug\net8.0\Enums.deps.json
+D:\SupperApp\SupperAppBack\Enums\bin\Debug\net8.0\Enums.dll
+D:\SupperApp\SupperAppBack\Enums\bin\Debug\net8.0\Enums.pdb
+D:\SupperApp\SupperAppBack\Enums\obj\Debug\net8.0\Enums.GeneratedMSBuildEditorConfig.editorconfig
+D:\SupperApp\SupperAppBack\Enums\obj\Debug\net8.0\Enums.AssemblyInfoInputs.cache
+D:\SupperApp\SupperAppBack\Enums\obj\Debug\net8.0\Enums.AssemblyInfo.cs
+D:\SupperApp\SupperAppBack\Enums\obj\Debug\net8.0\Enums.csproj.CoreCompileInputs.cache
+D:\SupperApp\SupperAppBack\Enums\obj\Debug\net8.0\Enums.sourcelink.json
+D:\SupperApp\SupperAppBack\Enums\obj\Debug\net8.0\Enums.dll
+D:\SupperApp\SupperAppBack\Enums\obj\Debug\net8.0\refint\Enums.dll
+D:\SupperApp\SupperAppBack\Enums\obj\Debug\net8.0\Enums.pdb
+D:\SupperApp\SupperAppBack\Enums\obj\Debug\net8.0\ref\Enums.dll
