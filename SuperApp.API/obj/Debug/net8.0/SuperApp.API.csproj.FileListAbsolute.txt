@@ -298,5 +298,10 @@ D:\SupperApp\SupperAppBack\SuperApp.API\obj\Debug\net8.0\refint\SuperApp.API.dll
 D:\SupperApp\SupperAppBack\SuperApp.API\obj\Debug\net8.0\SuperApp.API.pdb
 D:\SupperApp\SupperAppBack\SuperApp.API\obj\Debug\net8.0\SuperApp.API.genruntimeconfig.cache
 D:\SupperApp\SupperAppBack\SuperApp.API\obj\Debug\net8.0\ref\SuperApp.API.dll
+<<<<<<< HEAD
 D:\SupperApp\SupperAppBack\SuperApp.API\bin\Debug\net8.0\Enums.dll
 D:\SupperApp\SupperAppBack\SuperApp.API\bin\Debug\net8.0\Enums.pdb
+=======
+D:\Proyecto\SuperApp\SuperAppBack\SuperApp.API\bin\Debug\net8.0\Enums.dll
+D:\Proyecto\SuperApp\SuperAppBack\SuperApp.API\bin\Debug\net8.0\Enums.pdb
+>>>>>>> 04143a83d4c838c96c290326e62ec34cbe0bbb3d

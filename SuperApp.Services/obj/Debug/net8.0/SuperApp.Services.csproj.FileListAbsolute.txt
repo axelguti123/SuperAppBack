@@ -106,5 +106,10 @@ D:\SupperApp\SupperAppBack\SuperApp.Services\obj\Debug\net8.0\SuperApp.Services.
 D:\SupperApp\SupperAppBack\SuperApp.Services\obj\Debug\net8.0\refint\SuperApp.Services.dll
 D:\SupperApp\SupperAppBack\SuperApp.Services\obj\Debug\net8.0\SuperApp.Services.pdb
 D:\SupperApp\SupperAppBack\SuperApp.Services\obj\Debug\net8.0\ref\SuperApp.Services.dll
+<<<<<<< HEAD
 D:\SupperApp\SupperAppBack\SuperApp.Services\bin\Debug\net8.0\Enums.dll
 D:\SupperApp\SupperAppBack\SuperApp.Services\bin\Debug\net8.0\Enums.pdb
+=======
+D:\Proyecto\SuperApp\SuperAppBack\SuperApp.Services\bin\Debug\net8.0\Enums.dll
+D:\Proyecto\SuperApp\SuperAppBack\SuperApp.Services\bin\Debug\net8.0\Enums.pdb
+>>>>>>> 04143a83d4c838c96c290326e62ec34cbe0bbb3d
