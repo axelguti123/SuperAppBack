@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SupperApp\\SupperAppBack\\SupperApp.Models\\SupperApp.Models.csproj",
+      "projectUniqueName": "D:\\SupperApp\\SuperAppBack\\SupperApp.Models\\SupperApp.Models.csproj",
       "projectName": "SupperApp.Models",
-      "projectPath": "D:\\SupperApp\\SupperAppBack\\SupperApp.Models\\SupperApp.Models.csproj",
+      "projectPath": "D:\\SupperApp\\SuperAppBack\\SupperApp.Models\\SupperApp.Models.csproj",
       "packagesPath": "C:\\Users\\Axel\\.nuget\\packages\\",
-      "outputPath": "D:\\SupperApp\\SupperAppBack\\SupperApp.Models\\obj\\",
+      "outputPath": "D:\\SupperApp\\SuperAppBack\\SupperApp.Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Axel\\AppData\\Roaming\\NuGet\\NuGet.Config",

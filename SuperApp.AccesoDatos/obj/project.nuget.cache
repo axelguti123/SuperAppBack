@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xKMajo7zo8w=",
+  "dgSpecHash": "MJooA9iuh3M=",
   "success": true,
-  "projectFilePath": "D:\\SupperApp\\SupperAppBack\\SuperApp.AccesoDatos\\SuperApp.AccesoDatos.csproj",
+  "projectFilePath": "D:\\SupperApp\\SuperAppBack\\SuperApp.AccesoDatos\\SuperApp.AccesoDatos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Axel\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Axel\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

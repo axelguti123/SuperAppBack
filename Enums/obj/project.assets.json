@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SupperApp\\SupperAppBack\\Enums\\Enums.csproj",
+      "projectUniqueName": "D:\\SupperApp\\SuperAppBack\\Enums\\Enums.csproj",
       "projectName": "Enums",
-      "projectPath": "D:\\SupperApp\\SupperAppBack\\Enums\\Enums.csproj",
+      "projectPath": "D:\\SupperApp\\SuperAppBack\\Enums\\Enums.csproj",
       "packagesPath": "C:\\Users\\Axel\\.nuget\\packages\\",
-      "outputPath": "D:\\SupperApp\\SupperAppBack\\Enums\\obj\\",
+      "outputPath": "D:\\SupperApp\\SuperAppBack\\Enums\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Axel\\AppData\\Roaming\\NuGet\\NuGet.Config",

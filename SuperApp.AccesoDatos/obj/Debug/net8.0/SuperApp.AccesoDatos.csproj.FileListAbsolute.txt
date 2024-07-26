@@ -101,3 +101,21 @@ D:\SupperApp\SupperAppBack\SuperApp.AccesoDatos\bin\Debug\net8.0\Enums.pdb
 D:\Proyecto\SuperApp\SuperAppBack\SuperApp.AccesoDatos\bin\Debug\net8.0\Enums.dll
 D:\Proyecto\SuperApp\SuperAppBack\SuperApp.AccesoDatos\bin\Debug\net8.0\Enums.pdb
 >>>>>>> 04143a83d4c838c96c290326e62ec34cbe0bbb3d
+D:\SupperApp\SuperAppBack\SuperApp.AccesoDatos\bin\Debug\net8.0\SuperApp.AccesoDatos.deps.json
+D:\SupperApp\SuperAppBack\SuperApp.AccesoDatos\bin\Debug\net8.0\SuperApp.AccesoDatos.dll
+D:\SupperApp\SuperAppBack\SuperApp.AccesoDatos\bin\Debug\net8.0\SuperApp.AccesoDatos.pdb
+D:\SupperApp\SuperAppBack\SuperApp.AccesoDatos\bin\Debug\net8.0\Enums.dll
+D:\SupperApp\SuperAppBack\SuperApp.AccesoDatos\bin\Debug\net8.0\SupperApp.Models.dll
+D:\SupperApp\SuperAppBack\SuperApp.AccesoDatos\bin\Debug\net8.0\Enums.pdb
+D:\SupperApp\SuperAppBack\SuperApp.AccesoDatos\bin\Debug\net8.0\SupperApp.Models.pdb
+D:\SupperApp\SuperAppBack\SuperApp.AccesoDatos\obj\Debug\net8.0\SuperApp.AccesoDatos.csproj.AssemblyReference.cache
+D:\SupperApp\SuperAppBack\SuperApp.AccesoDatos\obj\Debug\net8.0\SuperApp.AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+D:\SupperApp\SuperAppBack\SuperApp.AccesoDatos\obj\Debug\net8.0\SuperApp.AccesoDatos.AssemblyInfoInputs.cache
+D:\SupperApp\SuperAppBack\SuperApp.AccesoDatos\obj\Debug\net8.0\SuperApp.AccesoDatos.AssemblyInfo.cs
+D:\SupperApp\SuperAppBack\SuperApp.AccesoDatos\obj\Debug\net8.0\SuperApp.AccesoDatos.csproj.CoreCompileInputs.cache
+D:\SupperApp\SuperAppBack\SuperApp.AccesoDatos\obj\Debug\net8.0\SuperApp.AccesoDatos.sourcelink.json
+D:\SupperApp\SuperAppBack\SuperApp.AccesoDatos\obj\Debug\net8.0\SuperApp.0F07C2B9.Up2Date
+D:\SupperApp\SuperAppBack\SuperApp.AccesoDatos\obj\Debug\net8.0\SuperApp.AccesoDatos.dll
+D:\SupperApp\SuperAppBack\SuperApp.AccesoDatos\obj\Debug\net8.0\refint\SuperApp.AccesoDatos.dll
+D:\SupperApp\SuperAppBack\SuperApp.AccesoDatos\obj\Debug\net8.0\SuperApp.AccesoDatos.pdb
+D:\SupperApp\SuperAppBack\SuperApp.AccesoDatos\obj\Debug\net8.0\ref\SuperApp.AccesoDatos.dll

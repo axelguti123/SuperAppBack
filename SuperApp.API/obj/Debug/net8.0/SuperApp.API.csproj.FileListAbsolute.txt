@@ -305,3 +305,14 @@ D:\SupperApp\SupperAppBack\SuperApp.API\bin\Debug\net8.0\Enums.pdb
 D:\Proyecto\SuperApp\SuperAppBack\SuperApp.API\bin\Debug\net8.0\Enums.dll
 D:\Proyecto\SuperApp\SuperAppBack\SuperApp.API\bin\Debug\net8.0\Enums.pdb
 >>>>>>> 04143a83d4c838c96c290326e62ec34cbe0bbb3d
+D:\SupperApp\SuperAppBack\SuperApp.API\obj\Debug\net8.0\SuperApp.API.csproj.AssemblyReference.cache
+D:\SupperApp\SuperAppBack\SuperApp.API\obj\Debug\net8.0\SuperApp.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\SupperApp\SuperAppBack\SuperApp.API\obj\Debug\net8.0\SuperApp.API.AssemblyInfoInputs.cache
+D:\SupperApp\SuperAppBack\SuperApp.API\obj\Debug\net8.0\SuperApp.API.AssemblyInfo.cs
+D:\SupperApp\SuperAppBack\SuperApp.API\obj\Debug\net8.0\SuperApp.API.csproj.CoreCompileInputs.cache
+D:\SupperApp\SuperAppBack\SuperApp.API\obj\Debug\net8.0\SuperApp.API.MvcApplicationPartsAssemblyInfo.cs
+D:\SupperApp\SuperAppBack\SuperApp.API\obj\Debug\net8.0\SuperApp.API.MvcApplicationPartsAssemblyInfo.cache
+D:\SupperApp\SuperAppBack\SuperApp.API\obj\Debug\net8.0\SuperApp.API.sourcelink.json
+D:\SupperApp\SuperAppBack\SuperApp.API\obj\Debug\net8.0\SuperApp.API.dll
+D:\SupperApp\SuperAppBack\SuperApp.API\obj\Debug\net8.0\refint\SuperApp.API.dll
+D:\SupperApp\SuperAppBack\SuperApp.API\obj\Debug\net8.0\SuperApp.API.pdb

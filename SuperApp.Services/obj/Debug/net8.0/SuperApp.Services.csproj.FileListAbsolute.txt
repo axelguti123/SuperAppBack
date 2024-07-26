@@ -113,3 +113,23 @@ D:\SupperApp\SupperAppBack\SuperApp.Services\bin\Debug\net8.0\Enums.pdb
 D:\Proyecto\SuperApp\SuperAppBack\SuperApp.Services\bin\Debug\net8.0\Enums.dll
 D:\Proyecto\SuperApp\SuperAppBack\SuperApp.Services\bin\Debug\net8.0\Enums.pdb
 >>>>>>> 04143a83d4c838c96c290326e62ec34cbe0bbb3d
+D:\SupperApp\SuperAppBack\SuperApp.Services\bin\Debug\net8.0\SuperApp.Services.deps.json
+D:\SupperApp\SuperAppBack\SuperApp.Services\bin\Debug\net8.0\SuperApp.Services.dll
+D:\SupperApp\SuperAppBack\SuperApp.Services\bin\Debug\net8.0\SuperApp.Services.pdb
+D:\SupperApp\SuperAppBack\SuperApp.Services\bin\Debug\net8.0\Enums.dll
+D:\SupperApp\SuperAppBack\SuperApp.Services\bin\Debug\net8.0\SuperApp.AccesoDatos.dll
+D:\SupperApp\SuperAppBack\SuperApp.Services\bin\Debug\net8.0\SupperApp.Models.dll
+D:\SupperApp\SuperAppBack\SuperApp.Services\bin\Debug\net8.0\Enums.pdb
+D:\SupperApp\SuperAppBack\SuperApp.Services\bin\Debug\net8.0\SuperApp.AccesoDatos.pdb
+D:\SupperApp\SuperAppBack\SuperApp.Services\bin\Debug\net8.0\SupperApp.Models.pdb
+D:\SupperApp\SuperAppBack\SuperApp.Services\obj\Debug\net8.0\SuperApp.Services.csproj.AssemblyReference.cache
+D:\SupperApp\SuperAppBack\SuperApp.Services\obj\Debug\net8.0\SuperApp.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\SupperApp\SuperAppBack\SuperApp.Services\obj\Debug\net8.0\SuperApp.Services.AssemblyInfoInputs.cache
+D:\SupperApp\SuperAppBack\SuperApp.Services\obj\Debug\net8.0\SuperApp.Services.AssemblyInfo.cs
+D:\SupperApp\SuperAppBack\SuperApp.Services\obj\Debug\net8.0\SuperApp.Services.csproj.CoreCompileInputs.cache
+D:\SupperApp\SuperAppBack\SuperApp.Services\obj\Debug\net8.0\SuperApp.Services.sourcelink.json
+D:\SupperApp\SuperAppBack\SuperApp.Services\obj\Debug\net8.0\SuperApp.845DF0EE.Up2Date
+D:\SupperApp\SuperAppBack\SuperApp.Services\obj\Debug\net8.0\SuperApp.Services.dll
+D:\SupperApp\SuperAppBack\SuperApp.Services\obj\Debug\net8.0\refint\SuperApp.Services.dll
+D:\SupperApp\SuperAppBack\SuperApp.Services\obj\Debug\net8.0\SuperApp.Services.pdb
+D:\SupperApp\SuperAppBack\SuperApp.Services\obj\Debug\net8.0\ref\SuperApp.Services.dll

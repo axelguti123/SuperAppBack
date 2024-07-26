@@ -1012,11 +1012,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SupperApp\\SupperAppBack\\SuperApp.Services\\SuperApp.Services.csproj",
+      "projectUniqueName": "D:\\SupperApp\\SuperAppBack\\SuperApp.Services\\SuperApp.Services.csproj",
       "projectName": "SuperApp.Services",
-      "projectPath": "D:\\SupperApp\\SupperAppBack\\SuperApp.Services\\SuperApp.Services.csproj",
+      "projectPath": "D:\\SupperApp\\SuperAppBack\\SuperApp.Services\\SuperApp.Services.csproj",
       "packagesPath": "C:\\Users\\Axel\\.nuget\\packages\\",
-      "outputPath": "D:\\SupperApp\\SupperAppBack\\SuperApp.Services\\obj\\",
+      "outputPath": "D:\\SupperApp\\SuperAppBack\\SuperApp.Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Axel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1034,14 +1034,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\SupperApp\\SupperAppBack\\Enums\\Enums.csproj": {
-              "projectPath": "D:\\SupperApp\\SupperAppBack\\Enums\\Enums.csproj"
+            "D:\\SupperApp\\SuperAppBack\\Enums\\Enums.csproj": {
+              "projectPath": "D:\\SupperApp\\SuperAppBack\\Enums\\Enums.csproj"
             },
-            "D:\\SupperApp\\SupperAppBack\\SuperApp.AccesoDatos\\SuperApp.AccesoDatos.csproj": {
-              "projectPath": "D:\\SupperApp\\SupperAppBack\\SuperApp.AccesoDatos\\SuperApp.AccesoDatos.csproj"
+            "D:\\SupperApp\\SuperAppBack\\SuperApp.AccesoDatos\\SuperApp.AccesoDatos.csproj": {
+              "projectPath": "D:\\SupperApp\\SuperAppBack\\SuperApp.AccesoDatos\\SuperApp.AccesoDatos.csproj"
             },
-            "D:\\SupperApp\\SupperAppBack\\SupperApp.Models\\SupperApp.Models.csproj": {
-              "projectPath": "D:\\SupperApp\\SupperAppBack\\SupperApp.Models\\SupperApp.Models.csproj"
+            "D:\\SupperApp\\SuperAppBack\\SupperApp.Models\\SupperApp.Models.csproj": {
+              "projectPath": "D:\\SupperApp\\SuperAppBack\\SupperApp.Models\\SupperApp.Models.csproj"
             }
           }
         }

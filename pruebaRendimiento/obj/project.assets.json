@@ -2776,11 +2776,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SupperApp\\SupperAppBack\\pruebaRendimiento\\pruebaRendimiento.csproj",
+      "projectUniqueName": "D:\\SupperApp\\SuperAppBack\\pruebaRendimiento\\pruebaRendimiento.csproj",
       "projectName": "pruebaRendimiento",
-      "projectPath": "D:\\SupperApp\\SupperAppBack\\pruebaRendimiento\\pruebaRendimiento.csproj",
+      "projectPath": "D:\\SupperApp\\SuperAppBack\\pruebaRendimiento\\pruebaRendimiento.csproj",
       "packagesPath": "C:\\Users\\Axel\\.nuget\\packages\\",
-      "outputPath": "D:\\SupperApp\\SupperAppBack\\pruebaRendimiento\\obj\\",
+      "outputPath": "D:\\SupperApp\\SuperAppBack\\pruebaRendimiento\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Axel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2798,11 +2798,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\SupperApp\\SupperAppBack\\SuperApp.API\\SuperApp.API.csproj": {
-              "projectPath": "D:\\SupperApp\\SupperAppBack\\SuperApp.API\\SuperApp.API.csproj"
+            "D:\\SupperApp\\SuperAppBack\\SuperApp.API\\SuperApp.API.csproj": {
+              "projectPath": "D:\\SupperApp\\SuperAppBack\\SuperApp.API\\SuperApp.API.csproj"
             },
-            "D:\\SupperApp\\SupperAppBack\\SuperApp.Services\\SuperApp.Services.csproj": {
-              "projectPath": "D:\\SupperApp\\SupperAppBack\\SuperApp.Services\\SuperApp.Services.csproj"
+            "D:\\SupperApp\\SuperAppBack\\SuperApp.Services\\SuperApp.Services.csproj": {
+              "projectPath": "D:\\SupperApp\\SuperAppBack\\SuperApp.Services\\SuperApp.Services.csproj"
             }
           }
         }

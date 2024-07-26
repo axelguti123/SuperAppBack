@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SupperApp\\SupperAppBack\\SuperApp.Services\\SuperApp.Services.csproj": {}
+    "D:\\SupperApp\\SuperAppBack\\SuperApp.Services\\SuperApp.Services.csproj": {}
   },
   "projects": {
-    "D:\\SupperApp\\SupperAppBack\\Enums\\Enums.csproj": {
+    "D:\\SupperApp\\SuperAppBack\\Enums\\Enums.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SupperApp\\SupperAppBack\\Enums\\Enums.csproj",
+        "projectUniqueName": "D:\\SupperApp\\SuperAppBack\\Enums\\Enums.csproj",
         "projectName": "Enums",
-        "projectPath": "D:\\SupperApp\\SupperAppBack\\Enums\\Enums.csproj",
+        "projectPath": "D:\\SupperApp\\SuperAppBack\\Enums\\Enums.csproj",
         "packagesPath": "C:\\Users\\Axel\\.nuget\\packages\\",
-        "outputPath": "D:\\SupperApp\\SupperAppBack\\Enums\\obj\\",
+        "outputPath": "D:\\SupperApp\\SuperAppBack\\Enums\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Axel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -65,14 +65,14 @@
         }
       }
     },
-    "D:\\SupperApp\\SupperAppBack\\SuperApp.AccesoDatos\\SuperApp.AccesoDatos.csproj": {
+    "D:\\SupperApp\\SuperAppBack\\SuperApp.AccesoDatos\\SuperApp.AccesoDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SupperApp\\SupperAppBack\\SuperApp.AccesoDatos\\SuperApp.AccesoDatos.csproj",
+        "projectUniqueName": "D:\\SupperApp\\SuperAppBack\\SuperApp.AccesoDatos\\SuperApp.AccesoDatos.csproj",
         "projectName": "SuperApp.AccesoDatos",
-        "projectPath": "D:\\SupperApp\\SupperAppBack\\SuperApp.AccesoDatos\\SuperApp.AccesoDatos.csproj",
+        "projectPath": "D:\\SupperApp\\SuperAppBack\\SuperApp.AccesoDatos\\SuperApp.AccesoDatos.csproj",
         "packagesPath": "C:\\Users\\Axel\\.nuget\\packages\\",
-        "outputPath": "D:\\SupperApp\\SupperAppBack\\SuperApp.AccesoDatos\\obj\\",
+        "outputPath": "D:\\SupperApp\\SuperAppBack\\SuperApp.AccesoDatos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Axel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -90,11 +90,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\SupperApp\\SupperAppBack\\Enums\\Enums.csproj": {
-                "projectPath": "D:\\SupperApp\\SupperAppBack\\Enums\\Enums.csproj"
+              "D:\\SupperApp\\SuperAppBack\\Enums\\Enums.csproj": {
+                "projectPath": "D:\\SupperApp\\SuperAppBack\\Enums\\Enums.csproj"
               },
-              "D:\\SupperApp\\SupperAppBack\\SupperApp.Models\\SupperApp.Models.csproj": {
-                "projectPath": "D:\\SupperApp\\SupperAppBack\\SupperApp.Models\\SupperApp.Models.csproj"
+              "D:\\SupperApp\\SuperAppBack\\SupperApp.Models\\SupperApp.Models.csproj": {
+                "projectPath": "D:\\SupperApp\\SuperAppBack\\SupperApp.Models\\SupperApp.Models.csproj"
               }
             }
           }
@@ -139,14 +139,14 @@
         }
       }
     },
-    "D:\\SupperApp\\SupperAppBack\\SuperApp.Services\\SuperApp.Services.csproj": {
+    "D:\\SupperApp\\SuperAppBack\\SuperApp.Services\\SuperApp.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SupperApp\\SupperAppBack\\SuperApp.Services\\SuperApp.Services.csproj",
+        "projectUniqueName": "D:\\SupperApp\\SuperAppBack\\SuperApp.Services\\SuperApp.Services.csproj",
         "projectName": "SuperApp.Services",
-        "projectPath": "D:\\SupperApp\\SupperAppBack\\SuperApp.Services\\SuperApp.Services.csproj",
+        "projectPath": "D:\\SupperApp\\SuperAppBack\\SuperApp.Services\\SuperApp.Services.csproj",
         "packagesPath": "C:\\Users\\Axel\\.nuget\\packages\\",
-        "outputPath": "D:\\SupperApp\\SupperAppBack\\SuperApp.Services\\obj\\",
+        "outputPath": "D:\\SupperApp\\SuperAppBack\\SuperApp.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Axel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -164,14 +164,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\SupperApp\\SupperAppBack\\Enums\\Enums.csproj": {
-                "projectPath": "D:\\SupperApp\\SupperAppBack\\Enums\\Enums.csproj"
+              "D:\\SupperApp\\SuperAppBack\\Enums\\Enums.csproj": {
+                "projectPath": "D:\\SupperApp\\SuperAppBack\\Enums\\Enums.csproj"
               },
-              "D:\\SupperApp\\SupperAppBack\\SuperApp.AccesoDatos\\SuperApp.AccesoDatos.csproj": {
-                "projectPath": "D:\\SupperApp\\SupperAppBack\\SuperApp.AccesoDatos\\SuperApp.AccesoDatos.csproj"
+              "D:\\SupperApp\\SuperAppBack\\SuperApp.AccesoDatos\\SuperApp.AccesoDatos.csproj": {
+                "projectPath": "D:\\SupperApp\\SuperAppBack\\SuperApp.AccesoDatos\\SuperApp.AccesoDatos.csproj"
               },
-              "D:\\SupperApp\\SupperAppBack\\SupperApp.Models\\SupperApp.Models.csproj": {
-                "projectPath": "D:\\SupperApp\\SupperAppBack\\SupperApp.Models\\SupperApp.Models.csproj"
+              "D:\\SupperApp\\SuperAppBack\\SupperApp.Models\\SupperApp.Models.csproj": {
+                "projectPath": "D:\\SupperApp\\SuperAppBack\\SupperApp.Models\\SupperApp.Models.csproj"
               }
             }
           }
@@ -228,14 +228,14 @@
         }
       }
     },
-    "D:\\SupperApp\\SupperAppBack\\SupperApp.Models\\SupperApp.Models.csproj": {
+    "D:\\SupperApp\\SuperAppBack\\SupperApp.Models\\SupperApp.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SupperApp\\SupperAppBack\\SupperApp.Models\\SupperApp.Models.csproj",
+        "projectUniqueName": "D:\\SupperApp\\SuperAppBack\\SupperApp.Models\\SupperApp.Models.csproj",
         "projectName": "SupperApp.Models",
-        "projectPath": "D:\\SupperApp\\SupperAppBack\\SupperApp.Models\\SupperApp.Models.csproj",
+        "projectPath": "D:\\SupperApp\\SuperAppBack\\SupperApp.Models\\SupperApp.Models.csproj",
         "packagesPath": "C:\\Users\\Axel\\.nuget\\packages\\",
-        "outputPath": "D:\\SupperApp\\SupperAppBack\\SupperApp.Models\\obj\\",
+        "outputPath": "D:\\SupperApp\\SuperAppBack\\SupperApp.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Axel\\AppData\\Roaming\\NuGet\\NuGet.Config",

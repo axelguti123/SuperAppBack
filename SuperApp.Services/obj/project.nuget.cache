@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lQ06LX7fIgo=",
+  "dgSpecHash": "q9QxT40J8Go=",
   "success": true,
-  "projectFilePath": "D:\\SupperApp\\SupperAppBack\\SuperApp.Services\\SuperApp.Services.csproj",
+  "projectFilePath": "D:\\SupperApp\\SuperAppBack\\SuperApp.Services\\SuperApp.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Axel\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Axel\\.nuget\\packages\\konscious.security.cryptography.argon2\\1.3.0\\konscious.security.cryptography.argon2.1.3.0.nupkg.sha512",
