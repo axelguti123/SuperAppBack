@@ -10,3 +10,15 @@ D:\Proyecto\SuperApp\SuperAppBack\Enums\obj\Debug\net8.0\Enums.dll
 D:\Proyecto\SuperApp\SuperAppBack\Enums\obj\Debug\net8.0\refint\Enums.dll
 D:\Proyecto\SuperApp\SuperAppBack\Enums\obj\Debug\net8.0\Enums.pdb
 D:\Proyecto\SuperApp\SuperAppBack\Enums\obj\Debug\net8.0\ref\Enums.dll
+D:\SupperApp\SuperAppBack\Enums\bin\Debug\net8.0\Enums.deps.json
+D:\SupperApp\SuperAppBack\Enums\bin\Debug\net8.0\Enums.dll
+D:\SupperApp\SuperAppBack\Enums\bin\Debug\net8.0\Enums.pdb
+D:\SupperApp\SuperAppBack\Enums\obj\Debug\net8.0\Enums.GeneratedMSBuildEditorConfig.editorconfig
+D:\SupperApp\SuperAppBack\Enums\obj\Debug\net8.0\Enums.AssemblyInfoInputs.cache
+D:\SupperApp\SuperAppBack\Enums\obj\Debug\net8.0\Enums.AssemblyInfo.cs
+D:\SupperApp\SuperAppBack\Enums\obj\Debug\net8.0\Enums.csproj.CoreCompileInputs.cache
+D:\SupperApp\SuperAppBack\Enums\obj\Debug\net8.0\Enums.sourcelink.json
+D:\SupperApp\SuperAppBack\Enums\obj\Debug\net8.0\Enums.dll
+D:\SupperApp\SuperAppBack\Enums\obj\Debug\net8.0\refint\Enums.dll
+D:\SupperApp\SuperAppBack\Enums\obj\Debug\net8.0\Enums.pdb
+D:\SupperApp\SuperAppBack\Enums\obj\Debug\net8.0\ref\Enums.dll
