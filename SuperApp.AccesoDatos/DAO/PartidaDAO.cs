@@ -92,5 +92,10 @@ namespace SuperApp.AccesoDatos.DAO
                 cmd.Parameters.AddWithValue("total", data.Total);
             });
         }
+
+        public Task<Response> ObtenerExcel(IEnumerable<Partida> data)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -90,6 +90,11 @@ namespace SuperApp.AccesoDatos.DAO
             });
         }
 
+        public Task<Response> ObtenerExcel(IEnumerable<Usuario> data)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<Response> Update(Usuario data)
         {
             return await DataBaseHelpers.ExecuteNonQueryAsync("SP_U_USUARIO", cmd =>

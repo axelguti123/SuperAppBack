@@ -15,16 +15,6 @@ namespace SuperApp.AccesoDatos.DAO
             {
                 cmd.Parameters.AddWithValue("@nombreEspecialidad", data.NombreEspecialidad);
                 cmd.Parameters.AddWithValue("@estado", data.IsActivo);
-            },
-            result =>
-            {
-                return result switch
-                {
-                    1 => new Response { Status = "Success", Message = "Registro Eliminado" },
-                    -1 => new Response { Status = "Error", Message = "Error. No se encontro una especialidad con el ID proporcionado." },
-                    -2 => new Response { Status = "Error", Message = "Error al eliminar especialidad" },
-                    _ => new Response { Status = "Error", Message = "Código de retorno no reconocido." }
-                };
             });
         }
 
@@ -33,23 +23,7 @@ namespace SuperApp.AccesoDatos.DAO
             return await DataBaseHelpers.ExecuteNonQueryAsync("SP_D_ESPECIALIDAD", cmd =>
             {
                 cmd.Parameters.AddWithValue("@idEspecialidad", id);
-                var returnVlue = new SqlParameter
-                {
-                    ParameterName = "@returnValue",
-                    SqlDbType = SqlDbType.Int,
-                    Direction = ParameterDirection.ReturnValue,
-                };
-                cmd.Parameters.Add(returnVlue);
-            },
-            result =>
-            {
-                return result switch
-                {
-                    1 => new Response { Status = "Success", Message = "Registro Eliminado" },
-                    -1 => new Response { Status = "Error", Message = "Error. No se encontro una especialidad con el ID proporcionado." },
-                    -2 => new Response { Status = "Error", Message = "Error al eliminar especialidad" },
-                    _ => new Response  { Status = "Error", Message = "Código de retorno no reconocido."}
-                };
+               
             });
         }
 
@@ -87,6 +61,11 @@ namespace SuperApp.AccesoDatos.DAO
                 }
                 return list.AsEnumerable();
             });
+        }
+
+        public Task<Response> ObtenerExcel(IEnumerable<Especialidad> data)
+        {
+            throw new NotImplementedException();
         }
 
         public async Task<Response> Update(Especialidad data)

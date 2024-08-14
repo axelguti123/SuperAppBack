@@ -14,5 +14,6 @@ namespace SuperApp.AccesoDatos.Interfaz
         Task<Response<IEnumerable<TEntity>>> GetAll();
         Task<Response> Update(TEntity data);
         Task<Response> Delete(int id);
+        Task<Response> ObtenerExcel(IEnumerable<TEntity> data);
     }
 }

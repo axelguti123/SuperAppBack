@@ -35,17 +35,15 @@ namespace SuperApp.API.Controllers
 
         // POST api/<PartidaController>
         [HttpPost]
-        public IActionResult Post([FromBody] IEnumerable<CrearPartidaDTO> data)
+        public async Task<IActionResult> Post([FromBody] IEnumerable<CrearPartidaDTO> data)
         {
             if (data != null)
             {
-                Console.WriteLine(data);
+                var response = await _partidaServices.ObtenerExcel(data);
+                return Ok(response);
             }
-            else
-            {
-                Console.WriteLine("Sin data");
-            }
-            return Ok("hola");
+            return Ok("Sin data");
+
         }
        
         // PUT api/<PartidaController>/5

@@ -109,5 +109,21 @@ namespace SuperApp.Services.Sevices
             }
             return responseDTO;
         }
+        public async Task<ResponseDTO> ObtenerExcel(IEnumerable<CrearPartidaDTO> partida)
+        {
+            var responseDTO=new ResponseDTO();
+            try
+            {
+                var data=_mapper.Map<IEnumerable<Partida>>(partida);
+                var response = await _uof.Partida.ObtenerExcel(data);
+                responseDTO=_mapper.Map<ResponseDTO>(response);
+            }
+            catch (Exception ex)
+            {
+                responseDTO.Status=Status.Error.ToString();
+                responseDTO.Message = ex.Message;   
+            }
+            return responseDTO;
+        }
     }
 }
