@@ -30,7 +30,7 @@ namespace SuperApp.Services.Utilities
             .ForMember(dest => dest.childpartida, opt => opt.MapFrom(src => src.ChildPartida))
             .ReverseMap();*/
             CreateMap<Partida, MostrarPartidaDTO>().ReverseMap();
-            CreateMap<IEnumerable<Partida>,List<CrearPartidaDTO>>().ReverseMap();
+            CreateMap <CrearPartidaDTO,Partida>().ReverseMap();
             //Otros Mapeos
             CreateMap<Response, ResponseDTO>().ReverseMap();
             CreateMap<Response<Especialidad>, ResponseDTO<MostrarEspecialidadDTO>>().ReverseMap();

@@ -95,7 +95,7 @@ namespace SuperApp.AccesoDatos.DAO
 
         public Task<Response> ObtenerExcel(IEnumerable<Partida> data)
         {
-            throw new NotImplementedException();
+            return
         }
     }
 }
